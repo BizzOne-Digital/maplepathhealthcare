@@ -3,6 +3,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import FloatButton from '@/components/FloatButton'
+import Chatbot from '@/components/Chatbot'
 
 export const metadata: Metadata = {
   title: 'PSW & Home Care Halton Region | Maplepath Healthcare',
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <FloatButton />
+        <Chatbot />
       </body>
     </html>
   )

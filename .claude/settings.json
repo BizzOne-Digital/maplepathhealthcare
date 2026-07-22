@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-CimInstance Win32_Process -Filter \"Name='node.exe'\")",
+      "PowerShell(Stop-Process -Id 16864,17800,7408,8032 -Force -ErrorAction SilentlyContinue)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "PowerShell(Stop-Process -Id 17300,2556,13112,18028 -Force -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
