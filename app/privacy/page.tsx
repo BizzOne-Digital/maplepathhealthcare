@@ -117,7 +117,7 @@ export default function PrivacyPage() {
                 </button>
               ))}
             </div>
-            <div className="p-10">{content[active]}</div>
+            <div key={active} className="tab-fade p-10">{content[active]}</div>
           </div>
         </div>
       </section>

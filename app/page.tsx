@@ -194,20 +194,20 @@ export default function HomePage() {
             <AnimateIn delay={150}>
               <div className="pt-1">
                 <div className="text-[11px] font-bold uppercase tracking-widest text-[#54AABA] mb-2">Meet Our Director</div>
-                <h2 className="font-serif text-[36px] font-semibold text-[#1C3162] leading-tight mb-1">Jasmine</h2>
-                <div className="text-sm text-[#5C6B80] mb-6 font-medium">Director, Maplepath Healthcare</div>
+                <h2 className="font-serif text-[36px] font-semibold text-[#1C3162] leading-tight mb-1">Jasmine S.</h2>
+                <div className="text-sm text-[#5C6B80] mb-6 font-medium">Director & Founder, MaplePath Healthcare</div>
                 <blockquote className="font-serif text-[19px] italic leading-relaxed text-[#2A3A5C] border-l-[3px] border-[#D4E7F7] pl-5 mb-6">
-                  "At MaplePath Healthcare, we believe everyone deserves compassionate care, respect, and the opportunity to live safely and comfortably in the place they call home."
+                  "At MaplePath Healthcare, we believe that exceptional care begins with compassion, respect, and treating every client like family. Our mission is to help seniors and individuals live safely, comfortably, and independently in the place they call home."
                 </blockquote>
                 <div className="space-y-4 text-[15px] text-[#2A3A5C] leading-relaxed font-light">
-                  <p>Jasmine is the Director of MaplePath Healthcare and brings over <strong className="text-[#1C3162] font-semibold">5 years of experience</strong> in client service, care coordination, and community support. She is passionate about helping individuals and families access compassionate, reliable, and personalized care.</p>
-                  <p>Known for her compassionate approach and strong leadership, Jasmine believes that exceptional care begins with listening, understanding, and building meaningful relationships. Her dedication to quality service and client satisfaction is at the heart of MaplePath Healthcare's mission.</p>
-                  <p>Jasmine is <strong className="text-[#1C3162] font-semibold">multilingual</strong> — communicating with clients and families in English, French, Persian (Farsi), Hindi, and Punjabi, helping MaplePath Healthcare serve the diverse communities throughout Halton Region and the GTA.</p>
+                  <p>Jasmine is the Founder and Director of MaplePath Healthcare, bringing over <strong className="text-[#1C3162] font-semibold">9 years of experience</strong> in the home healthcare industry. Throughout her career with Bayshore Home Health, she gained extensive experience supporting seniors and individuals with diverse care needs, coordinating care and building meaningful relationships with clients and families.</p>
+                  <p>Known for her integrity, empathy, and commitment to excellence, Jasmine is dedicated to ensuring every client receives dependable, professional, and compassionate care tailored to their unique needs.</p>
+                  <p>Jasmine is <strong className="text-[#1C3162] font-semibold">multilingual</strong> — communicating with clients and families in English, French, Persian (Farsi), Hindi, and Punjabi, helping MaplePath Healthcare serve the diverse communities throughout Halton Region, Halton Hills, and the GTA.</p>
                 </div>
                 <div className="flex items-center gap-4 mt-7 pt-6 border-t border-[rgba(42,67,115,.1)]">
                   <div className="font-serif text-[28px] italic text-[#1C3162]">Jasmine</div>
                   <div>
-                    <strong className="block text-sm font-bold text-[#1C3162]">Jasmine, Director</strong>
+                    <strong className="block text-sm font-bold text-[#1C3162]">Jasmine S., Director & Founder</strong>
                     <span className="text-xs text-[#5C6B80]">Maplepath Healthcare · Halton Hills, ON</span>
                   </div>
                 </div>

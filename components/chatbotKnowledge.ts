@@ -103,7 +103,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
   {
     keywords: ['who', 'jasmine', 'director', 'owner', 'company', 'about'],
     question: 'Who runs Maplepath Healthcare?',
-    answer: 'Jasmine is the Director of Maplepath Healthcare, with 5+ years of experience in client service and care coordination. She is multilingual (English, French, Persian, Hindi, Punjabi) and leads a locally operated agency based in Halton Hills, Ontario.',
+    answer: 'Jasmine S. is the Director & Founder of Maplepath Healthcare, with 9+ years of experience in the home healthcare industry, including her career with Bayshore Home Health. She is multilingual (English, French, Persian, Hindi, Punjabi) and leads a locally operated agency based in Halton Hills, Ontario, serving Halton Region and the GTA.',
   },
   {
     keywords: ['background check', 'verified', 'trust', 'vetted', 'screened'],

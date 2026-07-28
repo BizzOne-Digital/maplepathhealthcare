@@ -61,7 +61,7 @@ export default function Header() {
       <header className={`sticky top-0 z-50 bg-white/97 backdrop-blur-md border-b border-[#D4E7F7] transition-all duration-300 ${scrolled ? 'shadow-lg' : 'shadow-sm'}`}>
         <div className="px-[5%] flex items-center justify-between" style={{ height: scrolled ? '60px' : '72px', transition: 'height 0.3s' }}>
           <Link href="/" className="flex items-center gap-3 no-underline flex-shrink min-w-0">
-            <div className="w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
+            <div className="logo-mark w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
               <Image src="/logo.png" alt="Maplepath Healthcare" width={40} height={40} className="object-cover w-full h-full" />
             </div>
             <div className="min-w-0">
@@ -73,7 +73,7 @@ export default function Header() {
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1">
             {nav.map(n => (
-              <Link key={n.href} href={n.href} className="text-[#2A3A5C] text-sm font-medium px-3 py-2 rounded hover:bg-[#EBF4FC] hover:text-[#1C3162] transition-all duration-150 no-underline">
+              <Link key={n.href} href={n.href} className="nav-link text-[#2A3A5C] text-sm font-medium px-3 py-2 rounded hover:bg-[#EBF4FC] hover:text-[#1C3162] transition-all duration-150 no-underline">
                 {n.label}
               </Link>
             ))}
@@ -89,7 +89,7 @@ export default function Header() {
               1-877-MAPLE13
             </a>
             {/* Mobile menu button */}
-            <button onClick={() => setOpen(!open)} className="lg:hidden p-2 rounded text-[#1C3162]" aria-label="Menu">
+            <button onClick={() => setOpen(!open)} className="lg:hidden p-2 rounded text-[#1C3162] transition-transform duration-200" style={{ transform: open ? 'rotate(90deg)' : 'none' }} aria-label="Menu">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d={open ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>
             </button>
           </div>
@@ -97,9 +97,9 @@ export default function Header() {
 
         {/* Mobile nav */}
         {open && (
-          <div className="lg:hidden border-t border-[#D4E7F7] bg-white px-6 py-4 flex flex-col gap-2">
-            {nav.map(n => (
-              <Link key={n.href} href={n.href} onClick={() => setOpen(false)} className="text-[#2A3A5C] font-medium py-2 border-b border-[#EBF4FC] no-underline hover:text-[#1C3162]">
+          <div className="mobile-nav-enter lg:hidden border-t border-[#D4E7F7] bg-white px-6 py-4 flex flex-col gap-2">
+            {nav.map((n, i) => (
+              <Link key={n.href} href={n.href} onClick={() => setOpen(false)} className="text-[#2A3A5C] font-medium py-2 border-b border-[#EBF4FC] no-underline hover:text-[#1C3162] hover:pl-1 transition-all" style={{ transitionDelay: `${i * 25}ms` }}>
                 {n.label}
               </Link>
             ))}

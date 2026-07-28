@@ -48,8 +48,8 @@ export default function HowItWorksPage() {
                     <p className="text-[#5C6B80] leading-relaxed">{s.desc}</p>
                   </div>
                   <div className={`${i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}`}>
-                    <div className="aspect-[4/3] rounded-2xl overflow-hidden">
-                      <img src={s.img} alt={s.title} className="w-full h-full object-cover" />
+                    <div className="aspect-[4/3] rounded-2xl overflow-hidden group">
+                      <img src={s.img} alt={s.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                   </div>
                 </div>
@@ -70,13 +70,15 @@ export default function HowItWorksPage() {
               <p className="text-[#5C6B80] mb-7 font-light">We do not hire caregivers casually. Every person who enters your loved one's home has been rigorously evaluated — no exceptions, no shortcuts.</p>
               <div className="space-y-3">
                 {standards.map((s, i) => (
-                  <div key={i} className="flex items-start gap-4 bg-white rounded-xl border border-[rgba(42,67,115,.1)] p-4 hover:border-[rgba(93,166,221,.35)] hover:shadow-sm transition-all">
-                    <div className="w-8 h-8 rounded-full bg-[#1C3162] text-white font-serif text-sm font-semibold flex items-center justify-center flex-shrink-0">{s.n}</div>
-                    <div>
-                      <h4 className="text-sm font-bold text-[#1C3162] mb-0.5">{s.title}</h4>
-                      <p className="text-xs text-[#5C6B80] leading-snug">{s.desc}</p>
+                  <AnimateIn key={i} delay={i * 60}>
+                    <div className="flex items-start gap-4 bg-white rounded-xl border border-[rgba(42,67,115,.1)] p-4 hover:border-[rgba(93,166,221,.35)] hover:shadow-sm hover:-translate-y-0.5 transition-all">
+                      <div className="w-8 h-8 rounded-full bg-[#1C3162] text-white font-serif text-sm font-semibold flex items-center justify-center flex-shrink-0">{s.n}</div>
+                      <div>
+                        <h4 className="text-sm font-bold text-[#1C3162] mb-0.5">{s.title}</h4>
+                        <p className="text-xs text-[#5C6B80] leading-snug">{s.desc}</p>
+                      </div>
                     </div>
-                  </div>
+                  </AnimateIn>
                 ))}
               </div>
             </AnimateIn>
