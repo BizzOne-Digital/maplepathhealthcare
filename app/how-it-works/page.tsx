@@ -1,6 +1,12 @@
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'How Home Care Works | 24-Hour Care Start — Maplepath Healthcare Halton',
+  description: 'From your first call to care in the home in 24 hours. See our 7-step PSW vetting process and how Maplepath matches caregivers to your family in Halton.',
+}
 
 const steps = [
   { n: '1', title: 'You Call or Submit a Request', desc: 'Phone 1-877-MAPLE13 any time — day or night — or complete our online form. A real coordinator responds within 2 hours.', img: 'https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=500&q=80', color: '#1C3162' },

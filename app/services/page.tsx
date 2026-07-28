@@ -1,5 +1,11 @@
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home Care Services Halton | PSW, Dementia & Palliative Care — Maplepath',
+  description: 'Certified PSW services, dementia care, overnight support and palliative care across Halton Region. No contracts. Free assessment.',
+}
 
 const services = [
   { title: 'Dementia & Alzheimer\'s Care', desc: 'Specialized memory care in the familiarity of home — reducing anxiety, preserving routine, and keeping your loved one safe and engaged as the condition evolves.', img: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&q=80', feat: true, icon: <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/> },

@@ -1,6 +1,12 @@
 import Image from 'next/image'
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Jasmine S. — Founder & Director | Maplepath Healthcare Halton',
+  description: 'Meet Jasmine S., Founder of Maplepath Healthcare. 9 years in home care, formerly Bayshore Home Health. Multilingual. Serving all of Halton Region.',
+}
 
 const langs = ['English','French','Persian (Farsi)','Hindi','Punjabi']
 const values = [

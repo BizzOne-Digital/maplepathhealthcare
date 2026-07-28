@@ -1,5 +1,11 @@
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Areas We Serve | Home Care Across Halton Region — Maplepath Healthcare',
+  description: 'Maplepath Healthcare serves Oakville, Burlington, Milton, Georgetown, Halton Hills, Acton, Waterdown and rural Halton with PSW and home care services.',
+}
 
 const areas = [
   { city: 'Oakville', desc: 'PSW, dementia, palliative & overnight care', services: ['PSW & Personal Support','Dementia Care','Palliative Care','Overnight & 24-Hour Care','Post-Hospital Recovery'], img: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&q=80' },

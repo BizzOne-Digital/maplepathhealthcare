@@ -6,12 +6,12 @@ import FloatButton from '@/components/FloatButton'
 import Chatbot from '@/components/Chatbot'
 
 export const metadata: Metadata = {
-  title: 'PSW & Home Care Halton Region | Maplepath Healthcare',
-  description: 'Maplepath Healthcare — Halton\'s trusted, PHIPA-compliant PSW and home care agency. Certified caregivers in Oakville, Burlington, Milton & Halton Hills. Care starts within 24 hours.',
+  title: 'PSW & Home Care Halton | Maplepath Healthcare — Oakville, Burlington, Milton',
+  description: 'Maplepath Healthcare delivers PHIPA-compliant PSW, dementia, and palliative care across Halton. Care starts within 24 hours. Call 1-877-MAPLE13.',
   keywords: 'PSW Oakville, home care Halton, PSW Burlington, dementia care Halton, personal support worker',
   openGraph: {
-    title: 'Maplepath Healthcare — PSW & Home Care Halton Region',
-    description: 'Locally operated, PHIPA-compliant home care. Real caregivers. Real trust. Serving Oakville, Burlington, Milton & Halton Hills.',
+    title: 'PSW & Home Care Halton | Maplepath Healthcare — Oakville, Burlington, Milton',
+    description: 'Maplepath Healthcare delivers PHIPA-compliant PSW, dementia, and palliative care across Halton. Care starts within 24 hours. Call 1-877-MAPLE13.',
     type: 'website',
     url: 'https://www.maplepathhealthcare.ca',
   },

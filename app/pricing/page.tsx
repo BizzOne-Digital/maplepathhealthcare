@@ -1,5 +1,11 @@
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home Care Pricing Halton | From $28/hr — Maplepath Healthcare',
+  description: 'Transparent home care and PSW pricing in Halton. Companion Care from $28/hr, PSW Care from $34/hr, Live-In from $220/day. No surprise fees.',
+}
 
 const plans = [
   {
