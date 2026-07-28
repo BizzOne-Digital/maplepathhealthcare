@@ -6,6 +6,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'About Jasmine S. — Founder & Director | Maplepath Healthcare Halton',
   description: 'Meet Jasmine S., Founder of Maplepath Healthcare. 9 years in home care, formerly Bayshore Home Health. Multilingual. Serving all of Halton Region.',
+  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/about/' },
+  openGraph: { url: 'https://maplepathhealthcare.vercel.app/about/' },
 }
 
 const langs = ['English','French','Persian (Farsi)','Hindi','Punjabi']

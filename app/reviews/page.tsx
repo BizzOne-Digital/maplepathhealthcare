@@ -5,6 +5,12 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Family Reviews — Maplepath Healthcare Halton | Real Care Stories',
   description: "Read real stories from Halton families — Oakville, Burlington, Milton, Georgetown — about Maplepath's PSW and home care services.",
+  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/reviews/' },
+  openGraph: {
+    title: 'Family Reviews — Maplepath Healthcare Halton | Real Care Stories',
+    description: "Read real stories from Halton families — Oakville, Burlington, Milton, Georgetown — about Maplepath's PSW and home care services.",
+    url: 'https://maplepathhealthcare.vercel.app/reviews/',
+  },
 }
 
 const reviews = [

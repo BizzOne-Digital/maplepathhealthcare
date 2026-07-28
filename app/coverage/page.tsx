@@ -5,6 +5,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Areas We Serve | Home Care Across Halton Region — Maplepath Healthcare',
   description: 'Maplepath Healthcare serves Oakville, Burlington, Milton, Georgetown, Halton Hills, Acton, Waterdown and rural Halton with PSW and home care services.',
+  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/coverage/' },
+  openGraph: { url: 'https://maplepathhealthcare.vercel.app/coverage/' },
 }
 
 const areas = [

@@ -5,6 +5,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Home Care Services Halton | PSW, Dementia & Palliative Care — Maplepath',
   description: 'Certified PSW services, dementia care, overnight support and palliative care across Halton Region. No contracts. Free assessment.',
+  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/services/' },
+  openGraph: { url: 'https://maplepathhealthcare.vercel.app/services/' },
 }
 
 const services = [

@@ -5,6 +5,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact Maplepath Healthcare — Free Care Assessment Halton',
   description: 'Request a free home care assessment in Halton. Call 1-877-MAPLE13 or message us — a real person responds within 2 hours, 24/7.',
+  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/contact/' },
+  openGraph: { url: 'https://maplepathhealthcare.vercel.app/contact/' },
 }
 
 const contacts = [
