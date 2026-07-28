@@ -6,6 +6,7 @@ import FloatButton from '@/components/FloatButton'
 import Chatbot from '@/components/Chatbot'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://maplepathhealthcare.vercel.app'),
   title: 'PSW & Home Care Halton | Maplepath Healthcare — Oakville, Burlington, Milton',
   description: 'Maplepath Healthcare delivers PHIPA-compliant PSW, dementia, and palliative care across Halton. Care starts within 24 hours. Call 1-877-MAPLE13.',
   keywords: 'PSW Oakville, home care Halton, PSW Burlington, dementia care Halton, personal support worker',
@@ -13,7 +14,10 @@ export const metadata: Metadata = {
     title: 'PSW & Home Care Halton | Maplepath Healthcare — Oakville, Burlington, Milton',
     description: 'Maplepath Healthcare delivers PHIPA-compliant PSW, dementia, and palliative care across Halton. Care starts within 24 hours. Call 1-877-MAPLE13.',
     type: 'website',
-    url: 'https://www.maplepathhealthcare.ca',
+    url: 'https://maplepathhealthcare.vercel.app',
+  },
+  alternates: {
+    canonical: 'https://maplepathhealthcare.vercel.app',
   },
 }
 
