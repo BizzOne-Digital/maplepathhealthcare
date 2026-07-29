@@ -6,8 +6,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How Home Care Works | 24-Hour Care Start — Maplepath Healthcare Halton',
   description: 'From your first call to care in the home in 24 hours. See our 7-step PSW vetting process and how Maplepath matches caregivers to your family in Halton.',
-  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/how-it-works/' },
-  openGraph: { url: 'https://maplepathhealthcare.vercel.app/how-it-works/' },
+  alternates: { canonical: 'https://www.maplepathhealthcare.ca/how-it-works/' },
+  openGraph: { url: 'https://www.maplepathhealthcare.ca/how-it-works/' },
 }
 
 const steps = [

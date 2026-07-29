@@ -5,8 +5,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Home Care Pricing Halton | From $28/hr — Maplepath Healthcare',
   description: 'Transparent home care and PSW pricing in Halton. Companion Care from $28/hr, PSW Care from $34/hr, Live-In from $220/day. No surprise fees.',
-  alternates: { canonical: 'https://maplepathhealthcare.vercel.app/pricing/' },
-  openGraph: { url: 'https://maplepathhealthcare.vercel.app/pricing/' },
+  alternates: { canonical: 'https://www.maplepathhealthcare.ca/pricing/' },
+  openGraph: { url: 'https://www.maplepathhealthcare.ca/pricing/' },
 }
 
 const plans = [
