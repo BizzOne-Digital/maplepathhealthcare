@@ -21,6 +21,19 @@ export const metadata: Metadata = {
   },
 }
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Maplepath Healthcare',
+  url: 'https://www.maplepathhealthcare.ca',
+  sameAs: [
+    'https://www.instagram.com/maplepathhealthcare',
+    'https://www.facebook.com/maplepathhealthcare',
+    'https://www.tiktok.com/@maplepathhealthcare',
+    'https://www.linkedin.com/company/maplepathhealthcare',
+  ],
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -28,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       </head>
       <body>
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-[#1C3162] text-white px-4 py-2 rounded z-50">Skip to main content</a>
